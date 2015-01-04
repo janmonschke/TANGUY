@@ -63,3 +63,12 @@
 .a-sharp {
   @extend %black-key;
 }
+
+#midi {
+    @extend %module;
+    margin: 2rem;
+
+    > h2 {
+        @include blend-title(1rem);
+    }
+}

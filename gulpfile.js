@@ -35,7 +35,8 @@ var gulp = require('gulp'),
         'js/_slidercontrols.js',
         'js/_buttoncontrols.js',
         'js/_storeprogram.js',
-        'js/_keyboardcontrols.js'
+        'js/_keyboardcontrols.js',
+        'js/_midi.js'
     ];
 
 gulp.task('dev', function () {
